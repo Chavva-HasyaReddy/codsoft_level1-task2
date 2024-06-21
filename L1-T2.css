@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+body {
+    font-family: Arial , sans-serif;
+    background-image: url('https://wallpapercave.com/wp/wp2723902.jpg');
+    background-size:cover;
+    background-position: center;
+    height: 100vh;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    color: brown;
+}
+.navbar-left h1 {
+    padding-left: 100px;
+    padding-top: 0px;
+    font-family: "Moon Dance", cursive;
+    margin: 0;
+}
+.a-element:hover {
+    color: black;
+}
+.navbar-right a {
+    color: brown;
+    text-decoration: none;
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding-right: 25px;
+}
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+.home-left img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    padding-left: 20px;
+}
+.home-right h1 {
+    margin: 0;
+    text-align: left;
+    padding-left: 100px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    width: 50vw;
+}
+.home-right h2 {
+    text-align: left;
+    margin-top: 10px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 100px;
+    padding-right: 25px;
+    margin: 0;  
+}
+.about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+}
+.about-left {
+    width: 50vw;  
+    padding-right: 100px;
+    padding-left: 50px;
+}
+.about-h1 {
+    padding-top: 0px;
+    text-align: center;
+    font-size: 25px;
+    margin: 20px;
+    color: brown;
+}
+.about-p {
+    font-size: 25px;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(17, 16, 16); 
+    padding-right: 50px;
+}
+.about-h2 {
+    text-align: center;
+    font-size: 25px;
+    margin: 0;
+    color: brown;
+    padding-top: 100px;
+}
+.about-right{
+    font-size: 25px;
+}
+.accomplishments{
+    height: 100vh;
+    padding: 50px;
+}
+.accom-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+.head{
+    margin:25px;
+    color: brown;
+    text-align: center;
+}
+.cont{
+    height: 100px;
+}
+.icon{
+    height: 200px;
+    width: 100px;
+}
+.resume{
+    padding:30px;
+    font-size: 30px;
+    text-align: center;
+}
+.resume a {
+    display:inline-block;
+    padding: 15px;
+    background-color: whitesmoke;
+    color: rgb(222, 84, 107);
+    font-family: 'Mont-serat',sans-serif;
+    font-size: 20px;
+    text-decoration:none;
+    border-radius: 5px;
+    text-align: center;
+}
+.contact {
+    padding: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    height: 60vh;
+}
+.social-icon-img{
+    padding: 20px;
+    height: 80px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    color: rgb(15, 14, 14);
+}
